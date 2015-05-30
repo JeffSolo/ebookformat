@@ -1,0 +1,142 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% eBook 
+% LaTeX Template
+% Version 1.0 (29/12/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Luis Cobo (luiscobogutierrez@gmail.com) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+% 
+% More alters by Jeff Solomon (jeff@jeffreysolo.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONFIGURATIONS AND INFORMATION
+%----------------------------------------------------------------------------------------
+
+\documentclass[oneside,11pt]{memoir} % Font size
+
+\input{structure.tex} % Include the file that specifies the document structure and layout
+
+\title{Untitled} % Book title
+\author{Jeff Solomon} % Author
+\newcommand{\other}{OTHER} % Anything Else
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\frontmatter
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\thispagestyle{empty} % Suppress page numbering
+\ThisCenterWallPaper{1.12}{Untitled.jpg} % Add the background image, the first argument is the scaling - adjust this as necessary so the image fits the entire page
+%
+\begin{tikzpicture}[remember picture,overlay]
+\node [rectangle, rounded corners, fill=white, opacity=0.75, anchor=south west, minimum width=3cm, minimum height=4cm] (box) at (0,-5) (box){}; % White rectangle - "minimum width/height" adjust the width and height of the box; "(-0.5,-10)" adjusts the position on the page
+\node[anchor=west, color01, xshift=-1.5cm, yshift=-0.5cm, text width=2.9cm, font=\sffamily\scriptsize] at (box.north){\other}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
+\node[anchor=west, color01, xshift=-1.5cm, yshift=-2cm, text width=2.9cm, font=\sffamily\bfseries\scshape\Large] at (box.north){\thetitle}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
+\node[anchor=west, color01, xshift=-1.5cm, yshift=-3.5cm, text width=2.9cm, font=\sffamily\bfseries] at (box.north){\theauthor}; % "Text width" adjusts the wrapping width, "xshift/yshift" adjust the position relative to the white rectangle
+\end{tikzpicture}
+%
+\newpage % Make sure the following content is on a new page
+
+
+%----------------------------------------------------------------------------------------
+% ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+\thispagestyle{empty}
+\begin{acknowledgments}
+\LaTeX\ formatting for this ebook was written by Luis Cobo and heavily modified by Vel, and further modified by yours truly. 
+Template prior to my modifications can be found at www.latextemplates.com/template/ebook. \\Creative Common License: CC BY-NC-SA 3.0 \\ (http://creativecommons.org/licenses/by-nc-sa/3.0/)\\
+\\ This book has been formatted to fit this screen! Unless it is poorly formatted, in which case I apologize.\\
+\end{acknowledgments}
+\begin{center}
+\par\vspace*{\fill}\noindent
+If you have questions, comments, and/or suggestions, send an email to jeff@jeffreysolo.com
+\end{center}
+\newpage
+
+%----------------------------------------------------------------------------------------
+% DEDICATION
+%----------------------------------------------------------------------------------------
+\thispagestyle{empty}
+\clearpage
+\begin{dedication}
+Dedicated to my love
+\end{dedication}
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+%\renewcommand{\contentsname}{tableau}
+\setcounter{page}{-1}
+\clearpage
+\tableofcontents*
+ % Prints the table of contents
+\thispagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION SECTION
+%----------------------------------------------------------------------------------------
+
+\chapter{Introduction} % Introduction chapter suppressed from the table of contents
+
+\begin{quote}
+What began as an idea starts to take shape\footnote{Really}.\\
+--Jeff Solomon
+\end{quote}
+
+
+To write well, one must practice writing... a lot. \\
+I anticipate this brief foray shall end quickly as most of my projects these days - unfinished. This is but to kill time, and keep my mind keen as so as not to waste away in the garbage of time.... like that poorly constructed sentence shall\footnote{or something}. 
+
+%----------------------------------------------------------------------------------------
+%	BOOK PART
+%----------------------------------------------------------------------------------------
+
+\mainmatter
+\part{Beginnings}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER ONE
+%----------------------------------------------------------------------------------------
+
+\chapter{so it goes}
+
+Elyas stalked the golden halls, whistling a somber tune. 
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER TWO
+%----------------------------------------------------------------------------------------
+
+\chapter{from whence it came}
+
+Time stood still, as it is wont to do.
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER THREE
+%----------------------------------------------------------------------------------------
+
+\chapter{to thee}
+
+Lorem ipsum dolor sit amet, wisi est quis consequat volutpat aliquam aliquid, dictum ac, cras nunc pretium minim dolor, odio dui, nec duis. Vivamus massa, urna fusce diam ut, lacus enim ipsum nec. Suspendisse venenatis erat, vestibulum fusce donec nullam ac fermentum, maecenas libero ultricies proin venenatis. Maecenas pede reprehenderit, tellus nonummy ornare temporibus quam, ut nam risus augue scelerisque augue. Scelerisque dignissim scelerisque fringilla augue, nec id phasellus wisi. Rhoncus mauris tortor a eget sodales nunc, felis odio vel, id vivamus pellentesque donec montes luctus. Felis nulla interdum commodo consequat urna et.
+
+Adipiscing aliquam rhoncus eget sem. Non at varius, blandit malesuada volutpat nec sit, nam felis tempore, ac nascetur libero quisque at, ipsum eget velit at phasellus velit sit. Mattis vulputate vulputate eleifend augue tellus metus. Mi augue amet, turpis commodo massa sed elementum condimentum odio, sociis deleniti euismod, nulla maecenas metus suspendisse. Metus purus, viverra maecenas odio, leo lectus sem, sollicitudin non. Pellentesque augue quis malesuada sed mollis, ipsum ullamcorper velit, duis neque inceptos eu dui, pellentesque ipsum ac, nullam wisi dignissim aliquam vehicula. Velit laoreet, purus vel elit ullamcorper in vestibulum ullamcorper, pede facilis commodo sagittis rutrum lacus neque, lectus non dui sed, potenti sit ut leo fusce. Maecenas lorem morbi lectus sit. Per nam sit ut tempus at, odio dolor fusce libero quis egestas massa, quis placerat sed. Amet sed, erat adipiscing turpis dictumst eget.
+
+Semper nam parturient dolor nec arcu velit. Commodo ultricies ultrices vivamus in, aptent tincidunt duis tellus, eget sed eros in orci dolor, suscipit quam non. Sunt risus, cum sapien turpis blandit pellentesque. Vestibulum libero risus pretium. Dolorem fusce varius nec ac praesent, magna vestibulum montes turpis tincidunt, vehicula per. Justo duis sit massa arcu. Semper potenti in consectetuer enim, purus aliqua justo porttitor cursus adipiscing, aliquam quis est sed rhoncus eget odio, molestiae ultricies. Malesuada suspendisse condimentum cum odio scelerisque tempor, sit blandit ut orci elit vel, interdum nascetur sodales montes montes.
+
+Lacus et at varius, ipsum nam morbi est, vitae a turpis in pede nam, sed mi eros ac proin ut turpis. Amet etiam, nunc laoreet adipiscing natus adipiscing, cursus quis nec. In erat nulla, orci ante vitae, aliquam suscipit, suspendisse adipiscing wisi enim leo rhoncus, ante aliquam ac lectus vitae faucibus elit. Eu lacus elit, in porttitor rhoncus blandit aenean. Vel suscipit adipiscing sit lectus fames, quis ac viverra adipiscing dolor, diam velit donec lobortis at, adipiscing diam aliquet porttitor. Ultrices nec eros praesent ut vel, ornare suscipit tellus velit, est id suspendisse pretium iaculis. Tempus vitae praesent maecenas proin, consectetuer vulputate urna taciti, mi nascetur faucibus sed, dui wisi mi nec lectus velit integer, ut et wisi placerat rhoncus.
+%----------------------------------------------------------------------------------------
+
+\end{document}
